@@ -47,5 +47,5 @@ Anyone can use this app **without login**. All tasks are stored online in Supaba
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/HanNiKyawZin/supabase-todo-app.git
+git clone https://github.com/HanNiKyawZin/Todo-App.git
 
