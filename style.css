@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #e0e7ff);
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.card-task {
+  border-left: 6px solid #ffc107;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .card-task {
+  background: #1e1e1e;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.card-task.completed {
+  border-left-color: #28a745;
+}
+
+body.dark-mode .card-task.completed {
+  border-left-color: #28e07a;
+}
+
+/* Card text colors */
+.card-task h5, .card-task p, .card-task small {
+  color: #333; /* light mode */
+}
+
+body.dark-mode .card-task h5,
+body.dark-mode .card-task p,
+body.dark-mode .card-task small {
+  color: #e0e0e0; /* dark mode */
+}
+
+/* Badge status colors */
+.badge-status.bg-warning { background-color: #ffc107; color: #121212; }
+.badge-status.bg-success { background-color: #28a745; color: #121212; }
+
+/* Neutral button style for all modes */
+.btn-edit, .btn-toggle-pending, .btn-toggle-completed, .btn-delete {
+  background-color: #d6d6d6; /* light gray */
+  color: #333;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-edit:hover, .btn-toggle-pending:hover, .btn-toggle-completed:hover, .btn-delete:hover {
+  filter: brightness(0.9);
+}
+
+body.dark-mode .btn-edit, 
+body.dark-mode .btn-toggle-pending, 
+body.dark-mode .btn-toggle-completed, 
+body.dark-mode .btn-delete {
+  background-color: #6c6c6c; /* dark gray */
+  color: #fff;
+}
