@@ -1,42 +1,47 @@
-# Todo App
+# 🚀 Todo App
 
-A minimalist web application that allows users to manage tasks online without the need for login.  
-Built with **React**, **Supabase**, and deployed on **Vercel**.
+A minimalist web application that allows users to manage tasks online without the need for login. Built with a focus on simplicity and persistent data storage.
 
----
-
-## 🚀 Live Demo
-
-Experience the app here: [Todo App Live](https://todo-app-kappa-three-37.vercel.app/)
+[**🌐 Launch Live Demo**](https://todo-app-kappa-three-37.vercel.app/)
 
 ---
 
 ## 📋 Features
-
-- Add new tasks with a title, description, and optional due date
-- Edit existing tasks
-- Delete tasks
-- Mark tasks as completed or pending
-- Filter tasks by:
-  - All
-  - Pending
-  - Completed
-- Color-coded status indicators:
-  - Pending → Yellow
-  - Completed → Green
+- **Task Management:** Add new tasks with a title, description, and optional due date.
+- **Editing & Deletion:** Edit existing tasks or remove them entirely.
+- **Status Tracking:** Mark tasks as completed or pending.
+- **Smart Filtering:** Filter tasks by All, Pending, or Completed.
+- **Color-Coded UI:** Visual status indicators (Yellow for Pending, Green for Completed).
 
 ---
 
 ## 🛠️ Technologies Used
-
-- **React**
-- **Supabase** (for backend and database)
-- **Vercel** (for deployment)
+- **Frontend:** React
+- **Backend/Database:** Supabase
+- **Deployment:** Vercel
 
 ---
 
-## 💻 Installation
+## 🚀 Installation
+1. **Clone the project:**
+   git clone https://github.com/yourusername/todo-app.git
 
-To run this project locally:
+### 2. Install Dependencies
+npm install
 
-1. Clone the repository
+### 3. Run Locally
+npm start
+
+---
+
+## 📁 File Structure
+├── **src/**               # Application logic and React components
+├── **public/**            # Static assets
+└── **package.json**       # Project dependencies and scripts
+
+---
+
+## 📜 Credits & License
+- **Database:** Supabase
+- **Hosting** Vercel
+- **License:** Free for personal and educational use.
