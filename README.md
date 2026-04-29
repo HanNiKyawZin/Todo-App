@@ -23,7 +23,7 @@ A minimalist web application that allows users to manage tasks online without th
 ---
 
 ## 🚀 Installation
-1. **Clone the project:**
+### 1. **Clone the project:**
    git clone https://github.com/HanNiKyawZin/Todo-App.git
 
 ### 2. Install Dependencies
@@ -36,7 +36,9 @@ npm start
 
 ## 📁 File Structure
 ├── **src/**               # Application logic and React components
+
 ├── **public/**            # Static assets
+
 └── **package.json**       # Project dependencies and scripts
 
 ---
