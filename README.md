@@ -24,7 +24,7 @@ A minimalist web application that allows users to manage tasks online without th
 
 ## 🚀 Installation
 1. **Clone the project:**
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/HanNiKyawZin/Todo-App.git
 
 ### 2. Install Dependencies
 npm install
